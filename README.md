@@ -12,10 +12,7 @@ For starters click on this button
 
 ## Our Telegram Channel and Group
 
-* [Y U R I K O_U P D A T E S](https://https://t.me/RexomaUpDate)
-* [Y U R I K O_S U P P O R T](https://t.me/RexomaSupport)
-* [B O T S_L I S T](https://t.me/ProjectBotList)
-
+<a href="https://t.me/RexomaSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-black.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/RexomaUpDate"><img src="https://img.shields.io/badge/Join-Updates%20Channel-black.svg?style=for-the-badge&logo=Telegram"></a>
 
 # Preparation
 
