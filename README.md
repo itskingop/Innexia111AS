@@ -1,9 +1,18 @@
 [![codecov](https://codecov.io/gh/TeamRexoma/Yuriko/branch/master/graph/badge.svg?token=M4U97ZU3N2)](https://codecov.io/gh/TeamRexoma/Innexia)
 
-# Innexia 
+<h1 align="center">Y U R I K O</h3> 
+<p align="center">
+  <img src="https://telegra.ph/-05-31-535">
+</p>
 
-Official repository of [@InnexiBot](https://t.me/InnexiaBot), written in python 
 
+### Telegram Group
+<p align="left">
+<a href="https://t.me/RexomaSupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+
+### Bot And Channel 
+* Bot Link:  <a href="http://t.me/innexiaBot" alt=" Λ L I S S Λ "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Λ L I S S Λ-blue" /> </a>
+* Support Channel: <a  href="https://t.me/Rexoma" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Λ L I S S Λ%20Update%20Channel-9cf" /> </a>
 # Preparation
 
 1. Get Config Values and put it in config.py
