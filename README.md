@@ -12,9 +12,9 @@ For starters click on this button
 
 ## Our Telegram Channel and Group
 
-* [Y U R I K O  U P D A T E S](https://https://t.me/RexomaUpDate)
-* [Y U R I K O  S U P P O R T](https://t.me/RexomaSupport)
-* [B O T S  L I S T](https://t.me/ProjectBotList)
+* [Y U R I K O_U P D A T E S](https://https://t.me/RexomaUpDate)
+* [Y U R I K O_S U P P O R T](https://t.me/RexomaSupport)
+* [B O T S_L I S T](https://t.me/ProjectBotList)
 
 ## Credits 
 *   [B L A Z E](https://telegram.dog/PiroxPower)
