@@ -16,10 +16,12 @@ For starters click on this button
 * [Y U R I K O_S U P P O R T](https://t.me/RexomaSupport)
 * [B O T S_L I S T](https://t.me/ProjectBotList)
 
-## Credits 
-*   [B L A Z E](https://telegram.dog/PiroxPower)
-*   [S H A K A](https://telegram.dog/ShakaOp)
-*   [A A Y U S H](https://telegram.dog/Op_Aayu)
+
+# Preparation
+
+1. Get Config Values and put it in config.py
+2. install vps.txt 
+4. python3 -m Innexia
 
 # Run Development
 
@@ -40,3 +42,8 @@ For starters click on this button
 - Setup reverse proxy for Web
   Server, [here example](https://www.google.com/search?client=firefox-b-d&q=nginx+reverse+proxy+example).
 - Launch bot with `./SiskamlingBot`, your bot will run using poll or webhook.
+
+## Credits 
+*   [B L A Z E](https://telegram.dog/PiroxPower)
+*   [S H A K A](https://telegram.dog/ShakaOp)
+*   [A A Y U S H](https://telegram.dog/Op_Aayu)
