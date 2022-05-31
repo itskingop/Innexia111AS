@@ -1,20 +1,28 @@
 [![codecov](https://codecov.io/gh/TeamRexoma/Yuriko/branch/master/graph/badge.svg?token=M4U97ZU3N2)](https://codecov.io/gh/TeamRexoma/Innexia)
 
 <h1 align="center">Y U R I K O</h3> 
-<p align="center"><a href="https://t.me/Rexoma"><img src="https://telegra.ph/file/e7c3c6b1218e60204c2c5.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.meRexomaUpDate"><img src="https://telegra.ph/file/e7c3c6b1218e60204c2c5.jpg" width="300"></a></p>
 <p align="center">
     📍A Powerful Group Management Bot:
 
-### Telegram Group
-<p align="left">
-<a href="https://t.me/RexomaSupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+## How to setup on Heroku 
+For starters click on this button 
 
-### Bot And Channel 
-* Bot Link:  <a href="http://t.me/innexiaBot" alt=" Λ L I S S Λ "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Y U R I K O-blue" /> </a>
-* Support Channel: <a  href="https://t.me/Rexoma" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Y U R I K O%20UPDATES-9cf" /> </a>
-# Preparation
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TeamRexoma/Yuriko"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
-1. Get Config Values and put it in config.py
+## Our Telegram Channel and Group
+
+* [Y U R I K O UPDATES](https://https://t.me/RexomaUpDate)
+* [Y U R I K O SUPPORT](https://t.me/RexomaSupport)
+* [BOTS LIST](https://t.me/ProjectBotList)
+
+## Credits 
+*   [B L A Z E](https://telegram.dog/PiroxPower)
+*   [S H A K A](https://telegram.dog/ShakaOp)
+*   [S H A K A](https://telegram.dog/ShakaOp)
+
+
+1. Get Config Values and put it in confhttpsig.py
 2. install vps.txt 
 4. python3 -m Innexia
 
