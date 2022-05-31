@@ -12,7 +12,7 @@
 
 ### Bot And Channel 
 * Bot Link:  <a href="http://t.me/innexiaBot" alt=" Λ L I S S Λ "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Y U R I K O-blue" /> </a>
-* Support Channel: <a  href="https://t.me/Rexoma" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Y U R I K O%20Update%20Channel-9cf" /> </a>
+* Support Channel: <a  href="https://t.me/Rexoma" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Y U R I K O%20UPDATES-9cf" /> </a>
 # Preparation
 
 1. Get Config Values and put it in config.py
