@@ -19,7 +19,7 @@ For starters click on this button
 ## Credits 
 *   [B L A Z E](https://telegram.dog/PiroxPower)
 *   [S H A K A](https://telegram.dog/ShakaOp)
-*   [S H A K A](https://telegram.dog/ShakaOp)
+*   [A A Y U S H](https://telegram.dog/Op_Aayu)
 
 # Run Development
 
