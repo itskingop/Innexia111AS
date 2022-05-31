@@ -1,6 +1,6 @@
 [![codecov](https://codecov.io/gh/TeamRexoma/Yuriko/branch/master/graph/badge.svg?token=M4U97ZU3N2)](https://codecov.io/gh/TeamRexoma/Innexia)
 
-<h1 align="center">Y U R I K O</h3> 
+<h1 align="center">ＩＮＮＥＸＩＡ</h3> 
 <p align="center"><a href="https://t.meRexomaUpDate"><img src="https://telegra.ph/file/e7c3c6b1218e60204c2c5.jpg" width="300"></a></p>
 <p align="center">
     📍A Powerful Group Management Bot:
