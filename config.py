@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", None)
 BOT_ID = int(os.environ.get("BOT_ID", None))
 STRING_SESSION = os.environ.get("STRING_SESSION", None) 
 EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
-ARQ_API_KEY = ARQ_API
+
 
 
 # for heroku deployment only
@@ -62,3 +62,5 @@ SPAMWATCH_API = os.environ.get("SPAMWATCH_API", None)
 SESSION_NAME = os.getenv("SESSION_NAME")
 ARQ_API_URL = "https://thearq.tech"
 BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
+ARQ_API = os.getenv("ARQ_API_KEY", None) 
+ARQ_API_KEY = ARQ_API 
