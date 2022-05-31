@@ -21,11 +21,6 @@ For starters click on this button
 *   [S H A K A](https://telegram.dog/ShakaOp)
 *   [S H A K A](https://telegram.dog/ShakaOp)
 
-
-1. Get Config Values and put it in confhttpsig.py
-2. install vps.txt 
-4. python3 -m Innexia
-
 # Run Development
 
 - Clone this repo.
