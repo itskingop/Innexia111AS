@@ -2,9 +2,7 @@
 
 <h1 align="center">Y U R I K O</h3> 
 <p align="center">
-  <img src="https://telegra.ph/-05-31-535">
-</p>
-
+https://telegra.ph/-05-31-535
 
 ### Telegram Group
 <p align="left">
