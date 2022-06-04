@@ -124,7 +124,6 @@ updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("INNEXIA", API_ID, API_HASH)
 pbot = Client("innexiaBot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
-ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
 aiohttpsession = ClientSession()
 # ARQ Client
 LOGGER.info("[ARQ CLIENT] Checking Arq Connections...")
