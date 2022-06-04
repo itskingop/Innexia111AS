@@ -16,7 +16,7 @@ __buttons__ = [InlineKeyboardButton(text="Ban", callback_data="innexiaadminban_"
               InlineKeyboardButton(text="Warn", callback_data="innexiaadminwarn_"),
 ]
 
-__mod_name__ = "Owner"
+__mod_name__ = "Admins"
 
 dispatcher.add_handler(admin_callback_handler)
 dispatcher.add_handler(admin_ban_callback_handler)
