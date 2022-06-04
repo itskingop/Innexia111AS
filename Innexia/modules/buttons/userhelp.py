@@ -33,8 +33,6 @@ def innexia_user_callback(update, context):
                 ]
             ),
         )
-
- 
 def innexia_user_afk_callback(update, context):
     query = update.callback_query
     if query.data == "innexiauserafk_":
@@ -53,8 +51,6 @@ def innexia_user_afk_callback(update, context):
                 ]
             ),
         )
-
- 
 def innexia_user_about_callback(update, context):
     query = update.callback_query
     if query.data == "innexiauserabout_":
@@ -81,10 +77,7 @@ def innexia_user_about_callback(update, context):
                  ]
                 ]
             ),
-        )
-
-
- 
+        ) 
 def innexia_user_info_callback(update, context):
     query = update.callback_query
     if query.data == "innexiauserinfo_":
@@ -104,13 +97,7 @@ def innexia_user_info_callback(update, context):
                  ]
                 ]
             ),
-        )
-
- 
-
-
-
- 
+        ) 
 def innexia_user_extra_callback(update, context):
     query = update.callback_query
     if query.data == "innexiauserextra_":
