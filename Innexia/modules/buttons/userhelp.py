@@ -28,7 +28,7 @@ def innexia_user_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(user)")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
                  ]
                 ]
             ),
@@ -46,7 +46,7 @@ def innexia_user_afk_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(user)")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
                  ]
                 ]
             ),
@@ -73,7 +73,7 @@ def innexia_user_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(user)")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
                  ]
                 ]
             ),
@@ -93,7 +93,7 @@ def innexia_user_info_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(user)")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
                  ]
                 ]
             ),
@@ -115,7 +115,7 @@ def innexia_user_extra_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="help_module(user)")
+                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
                  ]
                 ]
             ),
