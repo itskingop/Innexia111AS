@@ -348,7 +348,8 @@ if is_module_loaded(FILENAME):
     dispatcher.add_handler(TOGGLE_HANDLER)
 
     __mod_name__ = "Disabling"
-
+    __button__ = ""
+    __buttons__ = ""
 else:
     DisableAbleCommandHandler = CommandHandler
     DisableAbleRegexHandler = RegexHandler
