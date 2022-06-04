@@ -7,13 +7,13 @@ we updradge alicia everyday to simplifie use of telegram and give a better expri
 Click on below buttons and check amazing tools for users.
 """  # no help string
 
-__button__ = [ InlineKeyboardButton(text="Horoscope", callback_data="aliciauser_"),
-            InlineKeyboardButton(text="AFK", callback_data="aliciauserafk_"),
-            InlineKeyboardButton(text="About", callback_data="aliciauserabout_"),
+__button__ = [ InlineKeyboardButton(text="Horoscope", callback_data="innexiauser_"),
+            InlineKeyboardButton(text="AFK", callback_data="innexiauserafk_"),
+            InlineKeyboardButton(text="About", callback_data="innexiauserabout_"),
 
 ] 
-__buttons__ = [InlineKeyboardButton(text="Info", callback_data="aliciauserinfo_"),               
-              InlineKeyboardButton(text="Extra", callback_data="aliciauserextra_"),
+__buttons__ = [InlineKeyboardButton(text="Info", callback_data="innexiauserinfo_"),               
+              InlineKeyboardButton(text="Extra", callback_data="innexiauserextra_"),
 ]
 
 
