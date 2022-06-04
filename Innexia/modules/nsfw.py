@@ -829,3 +829,5 @@ __help__ =
 
 
 __mod_name__ = "Nsfw​"
+__button__ = ""
+__buttons__ = ""
