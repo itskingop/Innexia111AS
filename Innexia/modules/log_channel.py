@@ -203,6 +203,8 @@ if is_module_loaded(FILENAME):
 """
 
     __mod_name__ = "Log Channel​"
+    __button__ = ""
+    __buttons__ = ""
 
     LOG_HANDLER = CommandHandler("logchannel", logging, run_async=True)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog, run_async=True)
