@@ -3,7 +3,7 @@ import asyncio
 import lottie
 from Innexia import LOGGER
 from Innexia.helper_extra.mmfhelp import take_screen_shot ,runcmd, cat_meme, cat_meeme
-from Innexia.pyrogramee.pluginshelper import convert_toimage, convert_tosticker
+from Innexia.utils.pluginshelper import convert_toimage, convert_tosticker
 from Innexia import telethn as borg
 
 from Innexia.events import register 
