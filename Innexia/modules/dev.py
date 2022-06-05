@@ -24,7 +24,7 @@ def allow_groups(update: Update, context: CallbackContext):
     if args[0].lower() in ["off", "no"]:
         EmikoRobot.ALLOW_CHATS = True
     elif args[0].lower() in ["yes", "on"]:
-        EmikoRobot.ALLOW_CHATS = False
+        Innexia.ALLOW_CHATS = False
     else:
         update.effective_message.reply_text("Format: /lockdown Yes/No or Off/On")
         return
