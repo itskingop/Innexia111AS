@@ -11,7 +11,7 @@ start_service.bat
 # Session files
 Innexia/*.session
 Innexia/*.session-journal
-Emiko.session-journal
+Innexia.session-journal
 *.session
 
 # Byte-compiled / optimized / DLL files
