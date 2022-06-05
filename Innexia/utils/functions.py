@@ -40,7 +40,7 @@ from Innexia.utils.http import get, post
 async def restart(m: Message):
     if m:
         await start_restart_stage(m.chat.id, m.message_id)
-    execvp(executable, [executable, "-m", "EmikoRobot"])
+    execvp(executable, [executable, "-m", "Innexia"])
 
 
 def generate_captcha():
