@@ -1,9 +1,8 @@
-import asyncio
 import time
 from telethon import events
 
-from Innexia import telethn
-from Innexia.modules.helper_funcs.telethn.chatstatus import (
+from AliciaRobot import telethn
+from AliciaRobot.modules.helper_funcs.telethn.chatstatus import (
     can_delete_messages,
     user_is_admin,
 )
@@ -14,13 +13,9 @@ async def purge_messages(event):
     if event.from_id is None:
         return
 
-    if (
-        not await user_is_admin(
-            user_id=event.sender_id,
-            message=event,
-        )
-        and event.from_id not in [1087968824]
-    ):
+    if not await user_is_admin(
+        user_id=event.sender_id, message=event
+    ) and event.from_id not in [1087968824]:
         await event.reply("Only Admins are allowed to use this command")
         return
 
@@ -48,20 +43,17 @@ async def purge_messages(event):
     except:
         pass
     time_ = time.perf_counter() - start
-    text = f"Successfully Purged"
+    text = f"Purged Successfully in {time_:0.2f} Second(s)"
     await event.respond(text, parse_mode="markdown")
+
 
 async def delete_messages(event):
     if event.from_id is None:
         return
 
-    if (
-        not await user_is_admin(
-            user_id=event.sender_id,
-            message=event,
-        )
-        and event.from_id not in [1087968824]
-    ):
+    if not await user_is_admin(
+        user_id=event.sender_id, message=event
+    ) and event.from_id not in [1087968824]:
         await event.reply("Only Admins are allowed to use this command")
         return
 
@@ -71,11 +63,13 @@ async def delete_messages(event):
 
     message = await event.get_reply_message()
     if not message:
-        await event.reply("What do uou want to delete?")
+        await event.reply("Whadya want to delete?")
         return
     chat = await event.get_input_chat()
     del_message = [message, event.message]
     await event.client.delete_messages(chat, del_message)
+
+
 
 PURGE_HANDLER = purge_messages, events.NewMessage(pattern="^[!/]purge$")
 DEL_HANDLER = delete_messages, events.NewMessage(pattern="^[!/]del$")
@@ -83,6 +77,6 @@ DEL_HANDLER = delete_messages, events.NewMessage(pattern="^[!/]del$")
 telethn.add_event_handler(*PURGE_HANDLER)
 telethn.add_event_handler(*DEL_HANDLER)
 
-__mod_name__ = "Purges"
+__mod_name__ = "DETELE"
 __command_list__ = ["del", "purge"]
 __handlers__ = [PURGE_HANDLER, DEL_HANDLER]
