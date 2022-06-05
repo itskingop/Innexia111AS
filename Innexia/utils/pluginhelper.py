@@ -248,6 +248,21 @@ async def convert_to_image(message, client) -> [None, str]:
         await runcmd(f"ffmpeg -i {vid_path} -filter:v scale=500:500 -an {final_path}")
     return final_path
 
+def convert_toimage(image):
+    img = Image.open(image)
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+    img.save("./temp/temp.jpg", "jpeg")
+    os.remove(image)
+    return "./temp/temp.jpg"
+
+async def convert_tosticker(image):
+    img = Image.open(image)
+    if img.mode != "RGB":
+        img = img.convert("RGB")
+    img.save("./temp/temp.webp", "webp")
+    os.remove(image)
+    return "./temp/temp.webp"
 
 async def unzip(downloaded_file_name):
     with zipfile.ZipFile(downloaded_file_name, "r") as zip_ref:
