@@ -18,7 +18,7 @@ from wand.color import Color
 from wand.drawing import Drawing
 from wand.image import Image as catimage
 
-from Innexia.utils.pluginshelper import unzip
+from Innexia.utils.pluginhelper import unzip
 
 MARGINS = [50, 150, 250, 350, 450]
 
