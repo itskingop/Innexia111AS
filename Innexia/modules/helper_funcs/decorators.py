@@ -13,7 +13,7 @@ from Innexia import dispatcher as d, LOGGER
 from typing import Optional, Union, List
 
 
-class EmikoHandler:
+class MikkiHandler:
     def __init__(self, d):
         self._dispatcher = d
 
@@ -172,7 +172,7 @@ class EmikoHandler:
         return _inlinequery
 
 
-emikocmd = EmikoHandler(d).command
-emikomsg = EmikoHandler(d).message
-emikocallback = EmikoHandler(d).callbackquery
-emikoinline = EmikoHandler(d).inlinequery
+innexiacmd = MikkiHandler(d).command
+innexiamsg = MikkiHandler(d).message
+innexiacallback = MikkiHandler(d).callbackquery
+innexiainline = MikkiHandler(d).inlinequery
