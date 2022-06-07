@@ -100,12 +100,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="👥 Group", url=f"https://t.me/RexomaSupport"),
+        InlineKeyboardButton(text="Owner", user_id=OWNER_ID), 
         InlineKeyboardButton(
             text="Channel 🔔", url=f"https://t.me/RexomaUpdate"
         ),
-    ],
-    [
-        InlineKeyboardButton(text="Owner", user_id=OWNER_ID), 
+    ],            
     [
         InlineKeyboardButton(text="➕Add Me To Your Chat➕", url="https://t.me/InnexiaBot?startgroup=true"),
     ],
