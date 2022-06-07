@@ -96,11 +96,11 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Help & Commands", callback_data="help_back"),
+            text="About", callback_data="innexia_"),
     ],
     [
         InlineKeyboardButton(text="👥 Group", url=f"https://t.me/RexomaSupport"),
-        InlineKeyboardButton(text="Owner", user_id=OWNER_ID), 
+        InlineKeyboardButton(text="Help📕", callback_data="help_back"), 
         InlineKeyboardButton(
             text="Channel 🔔", url=f"https://t.me/RexomaUpdate"
         ),
