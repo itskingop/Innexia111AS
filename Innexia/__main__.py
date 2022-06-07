@@ -105,6 +105,8 @@ buttons = [
         ),
     ],
     [
+        InlineKeyboardButton(text="Owner", user_id=OWNER_ID), 
+    [
         InlineKeyboardButton(text="➕Add Me To Your Chat➕", url="https://t.me/InnexiaBot?startgroup=true"),
     ],
 ]
