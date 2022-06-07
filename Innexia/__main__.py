@@ -386,7 +386,7 @@ I'm a modular group management bot with a few fun extras! Have a look at the fol
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back", callback_data="innexia_back")
+                    InlineKeyboardButton(text="𝙱𝚊𝚌𝚔", callback_data="innexia_back")
                  ]
                 ]
             ),
@@ -400,7 +400,20 @@ I'm a modular group management bot with a few fun extras! Have a look at the fol
                 disable_web_page_preview=False,
         )
 
-
+   elif query.data == "innexia_help":
+       query.message.edit_text(
+           text="**Welcome To Innexia Help Section**\n\nWhat You Wana Do This Time?", 
+           reply_markup=InlineKeyboardButton(
+               [
+                 [
+                    InlineKeyboardButton(text="𝙸𝙽𝚂𝚃𝙰𝙻𝙻𝙰𝚃𝙸𝙾𝙽", callback_data="innexia_install")
+                 ], 
+                 [
+                    InlineKeyboardButton(text="Basic Guide", callback_data="innexia_basic"),
+                 ]
+               ]
+         ), 
+      ) 
 @run_async
 def Source_about_callback(update, context):
     query = update.callback_query
@@ -408,6 +421,7 @@ def Source_about_callback(update, context):
         query.message.edit_text(
             text=""" SOON .""",
             parse_mode=ParseMode.MARKDOWN,
+
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
