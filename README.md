@@ -8,7 +8,7 @@
 ## How to setup on Heroku 
 For starters click on this button 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/TeamRexoma/Yuriko"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?https://github.com/itskingop/Innexia111AS"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## Our Telegram Channel and Group
 
